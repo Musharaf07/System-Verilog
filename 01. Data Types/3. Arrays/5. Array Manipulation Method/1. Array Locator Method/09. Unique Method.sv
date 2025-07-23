@@ -5,10 +5,10 @@ module Unique_method;
   
   initial begin
     
-    dt = '{7,3,4,6,2,9,5,8,10,11,9,12};
-    $display("Unique : %p", dt.unique(x) with (x < 3));
+    dt = '{5,6,3,7,3,3,9};
+    $display("Unique : %p", dt.unique());
     
   end
 endmodule
 
-// KERNEL: Unique : '{10, 2}
+// KERNEL: Unique : '{3, 5, 6, 7, 9}
