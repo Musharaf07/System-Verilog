@@ -12,4 +12,4 @@ module shuffle_method;
   end
 endmodule
 
-// KERNEL: Shuffle : '{10, 8, 7, 9, 6, 12, 4, 3, 2, 5, 11}
+//  KERNEL: Shuffle : '{10, 8, 7, 9, 6, 12, 4, 3, 2, 5, 11}
