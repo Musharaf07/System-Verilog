@@ -4,7 +4,6 @@ class solve_before;
   rand bit [3:0] data;
    constraint sb1 { solve addr before data;}
    constraint sb2 { (addr == 1) -> (data == 0);}
- 
 endclass
 
 module packetn;
