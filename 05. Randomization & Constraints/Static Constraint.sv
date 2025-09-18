@@ -22,7 +22,6 @@ module Packetn;
       $display("p2.  addr = %0d, data = %0d ", p2.addr, p2.data);
     end
     
-    
     $display(" After Disable Constraint ");
     p1.c1.constraint_mode(0);
     p2.c2.constraint_mode(0);
