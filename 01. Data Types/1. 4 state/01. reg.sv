@@ -16,7 +16,7 @@ module four_state_datatype_reg;
     b = 6'bx;
     
     $display("a = %b, b = %0b", a,b);
-   
+  
     a = 'hz;
     b = 6'hz;
     $display("a = %b, b = %0b", a,b);
