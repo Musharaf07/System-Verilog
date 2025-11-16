@@ -36,7 +36,6 @@ module fork_join;
   end
 endmodule
 
-
 /*  ---------------------------------------------------------------------
                    0	Before fork,  a = 8, b = 12
                    0	Process 1 Started,  a = 8, b = 12
